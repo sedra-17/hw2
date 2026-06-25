@@ -1,0 +1,75 @@
+*body{
+    margin: 0;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: #d4a373;
+    position: relative;
+}
+
+.coffe-img{
+    width: 260px;
+    border-radius: 10px;
+    margin-top: 15px;
+     box-shadow: 0px 10px 15px;
+}
+
+
+.container-header{
+    background-color: white;
+    width: 245px;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    top: -20px;
+    z-index: 1;
+    box-shadow: 0px 10px 15px;
+}
+
+.container-header h2{
+    padding: 2px 10px 2px 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #766153;
+}
+.container-header h4{
+    padding: 2px 10px 2px 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #766153;
+    margin-top: -20px;
+}
+
+.container-header span{
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 2px 10px 2px 10px;
+    color: black;
+}
+
+.container-header p{
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 2px 10px 2px 10px;
+    line-height: 1.5;
+}
+
+.container-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ button{
+    color: white;
+    background-color: #766153;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+ }
